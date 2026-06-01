@@ -2,9 +2,7 @@
   "name": "flowgen",
   "description": "Generate flowtype definition files from TypeScript",
   "version": "1.21.0",
-  "bin": {
-    "flowgen": "./lib/cli/index.js"
-  },
+  "bin": "./lib/cli/index.js",
   "jest": {
     "testMatch": [
       "**/__tests__/**/*.ts",
@@ -69,5 +67,6 @@
     "test": "jest src/**/*.spec.ts",
     "test:watch": "jest src/**/*.spec.ts --watch",
     "lint": "eslint '**/*.{js,ts,tsx}' --quiet"
-  }
+  },
+  "packageManager": "yarn@4.15.0"
 }
